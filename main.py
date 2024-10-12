@@ -35,7 +35,10 @@ clf=Pipeline([
 
 clf.fit(X_train,y_train)
 
-
+emails=[
+    'Sounds great! Are you home now?',
+    'Will u meet ur dream partner soon? Is ur career off 2 a flyng start? 2 find out free, txt HORO followed by ur star sign, e. g. HORO ARIES'
+]
 
 
 
