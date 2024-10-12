@@ -33,6 +33,7 @@ clf=Pipeline([
     ('nb',MultinomialNB())
 ])
 
+clf.fit(X_train,y_train)
 
 
 
