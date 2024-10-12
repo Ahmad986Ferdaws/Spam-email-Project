@@ -42,6 +42,7 @@ emails=[
 
 clf.predict(emails)
 
+clf.score(X_test,y_test)
 
 
 
