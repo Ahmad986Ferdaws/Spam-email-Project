@@ -5,3 +5,11 @@ import os
 for dirname, _, filenames in os.walk('/kaggle/input'):
     for filename in filenames:
         print(os.path.join(dirname, filename))
+
+
+data=pd.read_csv('/kaggle/input/spam-email/spam.csv')
+data
+
+
+
+
