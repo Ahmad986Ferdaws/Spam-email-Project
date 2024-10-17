@@ -16,7 +16,7 @@ data.columns
 data.info()
 
 data.isna().sum()
-
+# in this part we use use the spam identification 
 data['Spam']=data['Category'].apply(lambda x:1 if x=='spam' else 0)
 data.head(5)
 
