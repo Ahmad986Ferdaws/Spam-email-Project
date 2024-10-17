@@ -1,4 +1,4 @@
-# in this part of the project we use
+# in this part of the project we use the libraries like numpy and pandas
 import numpy as np # linear algebra
 import pandas as pd # data processing, CSV file I/O (e.g. pd.read_csv)
 
