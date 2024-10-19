@@ -5,7 +5,7 @@ import pandas as pd # data processing, CSV file I/O (e.g. pd.read_csv)
 import os
 for dirname, _, filenames in os.walk('/kaggle/input'):
     for filename in filenames:
-        print(os.path.join(dirname, filename)))))))
+        print(os.path.join(dirname, filename))))))
 
 # and also we read the the data collection
 data=pd.read_csv('/kaggle/input/spam-email/spam.csv')
