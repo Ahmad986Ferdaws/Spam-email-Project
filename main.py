@@ -11,7 +11,7 @@ for dirname, _, filenames in os.walk('/kaggle/input'):
 data=pd.read_csv('/kaggle/input/spam-email/spam.csv')
 data
 # we inlcude the columns
-data.columns
+data.column
 # and also shows the info of the data
 data.info()
 
