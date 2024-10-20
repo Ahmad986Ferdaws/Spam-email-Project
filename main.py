@@ -12,7 +12,7 @@ data=pd.read_csv('/kaggle/input/spam-email/spam.csv')
 data
 # we inlcude the columns
 data.column
-# and also shows the info of the dat
+# and also shows the info of the da
 data.info()
 
 data.isna().sum()
