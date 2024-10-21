@@ -13,7 +13,7 @@ data
 # we inlcude the columns
 data.column
 # and also shows th
-data.info()
+data.info() z
 
 data.isna().sum()
 # in this part we use use the spam identification 
