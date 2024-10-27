@@ -23,7 +23,7 @@ data.head(5)
 from sklearn.model_selection import train_test_split
 X_train,X_test,y_train,y_test=train_test_split(data.Message,data.Spam,test_size=0.25)
 
-#CounterVectorizer Convert the text into matric
+#CounterVectorizer Convert the text into matrics
 from sklearn.feature_extraction.text import CountVectorizer
 
 from sklearn.naive_bayes import MultinomialNB
